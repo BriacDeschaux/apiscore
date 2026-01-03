@@ -72,7 +72,7 @@ app.get('/api/matches', (req, res) => {
 
   // On écrit la requête SQL simple
 
-  const query = 'SELECT * FROM `match` ORDER BY match_date ASC';
+  const query = 'SELECT * FROM `Games` ORDER BY game_date ASC';
 
   // On l'exécute sur la connexion
 
